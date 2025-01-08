@@ -6,5 +6,9 @@ The FalconSign project provides a high-speed hardware implementation of the core
 ## Arithmetic module
 Used to efficiently perform all the floating-point operations in the Falcon signature generation algorithm. We provide two versions of this module, the Arithmetic module for Sign_Tree and Sign_Dynamic. Sign_Tree uses the pre-computed extended private key format "Falcon Tree" for fast signing, and Sign_Dynamic calculates the "Falcon Tree" dynamically during signature generation.
 
+For more detailed information, please refer to the README in the arithmetic subdirectory.
+
 ## SamplerZ module
 Used to complete the discrete Gaussian sampling required for Falcon-512 and Falcon-1024.
+
+For more detailed information, please refer to the README in the Sampler subdirectory.
