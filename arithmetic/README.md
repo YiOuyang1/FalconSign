@@ -25,8 +25,8 @@ Due to licensing or code review restrictions, the following modules are not incl
 
 `counter_ce`
 
-Describe:counter
+- Describe:counter
 
 `rbsh`
 
-Describe:This module performs circular shift operations
+- Describe:This module performs circular shift operations
