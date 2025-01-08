@@ -23,6 +23,14 @@ This section provides a brief overview of the key modules and IP cores used in t
 ## Non-Open-Source Modules
 Due to licensing or code review restrictions, the following modules are not included in this release:
 
+`fpr_mul_opt_2pipe`
+
+- Describe:This module is an optimized version of a pipelined floating-point multiplier with a latency of 2 cycles.
+  
+`fpr_mul_const_opt_2pipe`
+
+- Describe:This module is an optimized version of a pipelined floating-point multiplier with a latency of 2 cycles, where one input is a constant.
+
 `counter_ce`
 
 - Describe:counter
